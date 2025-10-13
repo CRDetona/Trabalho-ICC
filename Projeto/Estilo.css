@@ -1,0 +1,7 @@
+.Menu_Item{
+    background-image: url("TNT.jpg");
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+}
