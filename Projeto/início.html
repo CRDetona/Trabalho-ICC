@@ -4,58 +4,79 @@
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <title> Minecraft </title>
+            <link rel="stylesheet" href="Estilo.css"> 
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
         </head>
         <body>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #8fe38f">
                 <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#"> Início </a>
-                        </li>
-                        <li class="nav-item dropdown">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <img src="Grama.jpg" class="img-fluid" style="width:50px;height:50px;">
+                            <li class="nav-item pt-1">
+                                <a class="nav-link active" href="#"> Início </a>
+                            </li>
+                            <li class="nav-item dropdown pt-1">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Overworld
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Overworld/Overworld.html"> Overworld </a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="Overworld/Biomas.html"> Biomas </a></li>
+                                <li><a class="dropdown-item" href="Overworld/Estruturas.html"> Estruturas </a></li>
+                                <li><a class="dropdown-item" href="Overworld/Mobs.html"> Mobs </a></li>
+                            </ul>
+                            </li>
+
+                            <li class="nav-item dropdown pt-1">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Overworld
+                                Nether
                             </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="cd.OverworldSahur.html"> Overworld </a></li>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Nether/Nether.html"> Nether </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#"> Biomas </a></li>
-                            <li><a class="dropdown-item" href="#"> Estruturas </a></li>
-                            <li><a class="dropdown-item" href="#"> Mobs </a></li>
-                        </ul>
-                        </li>
+                            <li><a class="dropdown-item" href="Nether/Biomas.html"> Biomas </a></li>
+                            <li><a class="dropdown-item" href="Nether/Estruturas.html"> Estruturas </a></li>
+                            <li><a class="dropdown-item" href="Nether/Mobs.html"> Mobs </a></li>
+                            </ul>
+                            </li>
 
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Nether
-                        </a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="Nether.html"> Nether </a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#"> Biomas </a></li>
-                        <li><a class="dropdown-item" href="#"> Estruturas </a></li>
-                        <li><a class="dropdown-item" href="#"> Mobs </a></li>
-                        </ul>
+                            <li class="nav-item dropdown pt-1">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                End
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="End/End.html"> End </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="End/Biomas.html"> Biomas </a></li>
+                            <li><a class="dropdown-item" href="End/Estruturas.html"> Estruturas </a></li>
+                            <li><a class="dropdown-item" href="End/Mobs.html"> Mobs </a></li>
+                            </ul>
                         </li>
-
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            End
-                        </a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="End.html"> End </a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#"> Biomas </a></li>
-                        <li><a class="dropdown-item" href="#"> Estruturas </a></li>
-                        <li><a class="dropdown-item" href="#"> Mobs </a></li>
                         </ul>
-                    </li>
-                    </ul>
                 </div>
                 </div>
             </nav>
+            <div class="container mt-5 p-5">
+                <div class="row" style="background-color: #8fe38f; border: solid #000 2px;">
+                    <div class="col-md-2 p-3"></div>
+                    <div class="col-md-8 p-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod neque non massa lobortis, nec volutpat turpis auctor. Donec aliquet sed ligula at vehicula. Duis semper elit neque, sit amet laoreet arcu malesuada et. Vivamus non tincidunt neque. Vivamus vel diam dolor. Sed iaculis eleifend nisl sed fringilla. Curabitur vitae ligula luctus ante imperdiet interdum. Nam ultricies purus a enim iaculis consectetur.
+
+                        Aliquam sit amet tempor quam. Pellentesque turpis felis, tincidunt at faucibus at, blandit vitae purus. Cras enim tellus, suscipit id justo ac, consectetur blandit nunc. Maecenas rhoncus fermentum ultrices. Nulla lacinia quam maximus quam scelerisque, a gravida erat porttitor. Aenean sem magna, porta sed blandit vel, tincidunt eu arcu. Vestibulum nec neque id mi semper rutrum. Praesent imperdiet ipsum sapien, vitae malesuada sem elementum nec. Sed efficitur purus luctus, scelerisque nunc a, fermentum lectus. Sed nec faucibus ex. Fusce placerat quam nulla, at imperdiet nunc finibus ac.
+                        
+                        Aliquam imperdiet sapien ut viverra ullamcorper. Donec iaculis ac lacus nec commodo. Cras ut eleifend lectus, in rhoncus nisi. Nunc pretium mi mollis nibh ultricies, in pellentesque orci sodales. Cras tristique pretium enim, in dictum quam eleifend ac. Maecenas imperdiet posuere tempus. Aenean eget scelerisque ante, non euismod odio. Nam mattis euismod risus, eu porttitor augue suscipit ut. Vestibulum vel luctus odio. Morbi sagittis a odio sed varius.
+                        
+                        Cras iaculis enim a vehicula dictum. Etiam convallis tristique felis, nec molestie lorem porttitor eget. Sed vel velit eget metus elementum tristique quis mattis arcu. Integer porta sit amet massa et accumsan. Mauris lobortis eu est vitae sagittis. Curabitur dictum cursus blandit. Donec nec ligula risus. In nulla sapien, luctus sed malesuada ut, egestas id metus. Mauris libero lectus, semper eu aliquam vel, commodo ac massa. Aliquam efficitur dui metus, vel imperdiet purus maximus quis. Ut dignissim eleifend odio vel tristique. Vivamus maximus maximus arcu. Duis eu fermentum sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin suscipit arcu nec odio sagittis, id tincidunt purus egestas.
+                        
+                        Aliquam blandit ultricies mauris et egestas. Proin eu purus nec diam eleifend dictum. Phasellus mollis vehicula sem id efficitur. Quisque nec felis eu dui mollis tempus a quis sapien. Donec ultricies quam turpis, vitae pellentesque arcu vestibulum eget. Pellentesque ac enim sagittis, ornare urna a, semper tortor. Proin sed ipsum venenatis, imperdiet nibh eget, finibus nulla. Praesent eros est, feugiat non vulputate eget, eleifend et velit. Aliquam venenatis velit augue, eget venenatis orci pellentesque et. Aenean hendrerit venenatis lorem id pretium. Donec pharetra scelerisque diam.
+                    </div>
+                    <div class="col-md-2 p-3"></div>
+             
+                </div>
+                
+            </div>
     </body>
 </html>
